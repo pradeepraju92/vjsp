@@ -15,13 +15,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-
       - name: Set up Node.js version
         uses: actions/setup-node@v3
         with:
           node-version: '20.x'
       
-      -name: Set Node options
+      - name: Set Node options
         run: |
           NODE_OPTIONS=--openssl-legacy-provider
 
