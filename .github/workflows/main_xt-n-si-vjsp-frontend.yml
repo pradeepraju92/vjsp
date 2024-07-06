@@ -22,7 +22,7 @@ jobs:
       
       - name: Set Node options
         run: |
-          export NODE_OPTIONS=--openssl-legacy-provider
+          set NODE_OPTIONS=--openssl-legacy-provider
 
       - name: npm install, build, and test
         run: |
