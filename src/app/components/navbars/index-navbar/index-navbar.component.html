@@ -10,17 +10,13 @@
       <a
         [routerLink]="['/']"
         class="text-blueGray-700 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
-        href="#pablo"
+        href=""
       >
-        VJSP
+      <img
+      src="assets/img/logo-horizontal-light.svg"
+      alt="..." width="100" height="100"
+    />
       </a>
-      <button
-        class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-        type="button"
-        (click)="setNavbarOpen()"
-      >
-        <i class="fas fa-bars"></i>
-      </button>
     </div>
     <div
       class="lg:flex flex-grow items-center"
@@ -37,8 +33,35 @@
             Home
           </a>
         </li>
+        <li class="flex items-center">
+          <a
+            class="hover:text-blueGray-500 text-blueGray-700 px-3 py-2 flex items-center text-xs uppercase font-bold" href="#panel">
+            <i
+              class="text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2"
+            ></i>
+            PANEL BOARD
+          </a>
+        </li>
+        <li class="flex items-center">
+          <a
+            class="hover:text-blueGray-500 text-blueGray-700 px-3 py-2 flex items-center text-xs uppercase font-bold" href="#cable-tray">
+            <i
+              class="text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2"
+            ></i>
+            CABLE TRAY
+          </a>
+        </li>
+        <li class="flex items-center">
+          <a
+            class="hover:text-blueGray-500 text-blueGray-700 px-3 py-2 flex items-center text-xs uppercase font-bold" href="#contact">
+            <i
+              class="text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2"
+            ></i>
+            CONTACT US
+          </a>
+        </li>
       </ul>
-      <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+      <!--<ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
         <li class="flex items-center">
           <app-index-dropdown class="block"></app-index-dropdown>
         </li>
@@ -74,7 +97,7 @@
             <span class="lg:hidden inline-block ml-2">Star</span>
           </a>
         </li>
-      </ul>
+      </ul>-->
     </div>
   </div>
 </nav>

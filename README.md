@@ -306,7 +306,7 @@ We use GitHub Issues as the official bug tracker for the Notus Angular. Here are
 
 ### Social Media
 
-Twitter: <a href="https://twitter.com/CreativeTim" target="_blank">https://twitter.com/CreativeTim</a>
+Twitter: <a href="https://x.com/VjspPvt" target="_blank">https://x.com/VjspPvt</a>
 
 Facebook: <a href="https://www.facebook.com/CreativeTim" target="_blank">https://www.facebook.com/CreativeTim</a>
 
